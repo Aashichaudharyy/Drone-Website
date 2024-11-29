@@ -1,0 +1,138 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header Section*/
+/*Top-Bar*/
+.top-bar{
+    background-color: #1B54E1;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-icons a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 4px;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+.social-icons a:hover{
+    display: inline-block;
+    transform: scale(1.2);
+}
+
+.contact-info span{
+    display: flexbox;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+    padding: 4px;
+}
+.contact-info i{
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+}
+
+/*Navigation Bar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: auto;
+    border-bottom: 1px solid #ddd;
+}
+.logo img{
+    height: 60px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav-links li{
+    margin: 10px 20px;
+
+}
+.nav-links a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-links a:hover{
+    text-decoration: underline;
+}
+.btn-get-quota{
+    color: #ffffff;
+    background-color: #1B54E1;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease,transform 0.2s ease;
+}
+.btn-get-quota:hover{
+    background-color: #194bc7;
+    transform: scale(1.1);
+}
+.btn-get-quota:active{
+    background-color: #13368e;
+}
+.settings-icon{
+    font-size: 20px;
+    color: #000000;
+}
+
+/*Hero Section*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #CECECE; 
+    height: 50vh;
+}
+.hero-content {
+    max-width: 50%; 
+}
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+.hero-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color:#1B54E1;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.hero-button:hover {
+    background-color:#194bc7 ;
+}
+.hero-image {
+    max-width: 45%;
+}
+.hero-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
